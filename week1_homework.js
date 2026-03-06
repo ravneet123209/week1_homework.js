@@ -63,3 +63,19 @@ if(username === "admin" && password === 12345 &&isActive ==true){
 else{
     console.log("Invalid credentials or not Active");  // Prints error message
 }
+
+//Task 5 — Grade Calculator
+
+// Student score
+let score = 55;
+
+// Check score and assign grade
+if(score >=90 ){
+    console.log("A");
+}else if(score>=80 && score<=89){
+    console.log("B");
+}else if(score>=70 && score<=79){
+    console.log("C");
+}else{
+    console.log("Fail");
+}
