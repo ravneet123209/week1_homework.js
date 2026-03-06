@@ -30,3 +30,17 @@ else if(temperature >= 16 && temperature <= 25){
 else{
     console.log("Hot");
 }
+
+//Task 3 — Even or Odd
+
+//creating variable temperature.
+let number = 5 ;
+
+//If we get remainder as 0 on dividing by 2 
+if(number%2===0){
+    console.log("Even")
+}
+//If we not get remainder as 0 on dividing by 2 
+else{
+    console.log("Odd")
+}
