@@ -44,3 +44,22 @@ if(number%2===0){
 else{
     console.log("Odd")
 }
+
+//Task 4 — Simple Login System
+
+// Define login details
+
+let username = "admin";
+let password = 12345 ;
+let isActive = true;
+
+
+// Check if username, password, and account status are correct
+
+if(username === "admin" && password === 12345 &&isActive ==true){
+    console.log("Login successful");
+
+} 
+else{
+    console.log("Invalid credentials or not Active");  // Prints error message
+}
